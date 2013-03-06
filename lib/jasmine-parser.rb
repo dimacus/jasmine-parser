@@ -44,7 +44,6 @@ jasmine_parser_files = ['config',
                         'node_factory',
                         'jasmine_suite',
                         'file_parser',
-                        'shared_example_merger',
                         'location_finder'
                         ]
 
