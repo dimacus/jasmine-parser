@@ -37,12 +37,12 @@ Gem::Specification.new do |s|
   s.authors = ["Dima Kovalenko"]
   s.date = %q{2012-12-03}
   s.description = %q{Parser for Jasmine Spec Files}
-  s.email = %q{dima@groupon.com}
+  s.email = %q{dima.kovalenko@gmail.com}
   files = `git ls-files`.split("\n") | Dir.glob('jasmine-parser/**/*')
   files.delete "Gemfile.lock"
   s.files = files
   s.test_files = `git ls-files -- {test,spec,features}/*`.split("\n")
-  s.homepage = %q{http://google.com}
+  s.homepage = %q{https://github.com/groupon/jasmine-parser}
   s.require_paths = ["lib"]
   s.rubygems_version = %q{1.6.2}
   s.summary = %q{Gem to help to parse all of the jasmine spec files, and create usable stack traces for any given test.}
